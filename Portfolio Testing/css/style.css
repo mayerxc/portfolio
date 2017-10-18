@@ -13,7 +13,7 @@ a {
     color: inherit;
 }
 .header h1 {
-    margin-top: 10vh;
+    margin-top: 150px;
     margin-bottom: 10vh;
     text-align: center;
     
@@ -33,7 +33,7 @@ a {
 .header {
     color: black;
     overflow: auto;
-    overflow-y: visible;
+/*    overflow-y: visible;*/
 /*    height: 100vh;*/
     background: url(https://res.cloudinary.com/mayerxc/image/upload/o_30/v1508255534/marvin-ronsdorf-196913_agdpml.jpg) fixed no-repeat center;
     background-size: 100vw;
@@ -60,20 +60,38 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 #about h1 {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom:  10vh;
 }
 
 .card {
     margin: 10px;
-/*
-    margin-left: 10px;
-    margin-right: 10px;
-*/
 }
+
 .row {
     width: 99%;
+}
+
+#portfolio {
+    overflow: auto;
+    background: url(http://res.cloudinary.com/mayerxc/image/upload/o_40/v1508255539/steven-coffey-350494_kpgdrc.jpg) fixed no-repeat center;
+    background-size: 100vw;
+/*    height: 500px;*/
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+#portfolio h1 {
+    margin-top: 10vh;
+    margin-bottom:  10vh;
+}
+#portfolio .card-title {
+    text-align: center;
+}
+
+#portfolio .card {
+    width: 300px;
 }
 
