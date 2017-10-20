@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Droid Serif', serif;
+    position: relative;
 }
 
 nav {
@@ -35,8 +38,8 @@ a {
     overflow: auto;
 /*    overflow-y: visible;*/
 /*    height: 100vh;*/
-    background: url(https://res.cloudinary.com/mayerxc/image/upload/o_30/v1508255534/marvin-ronsdorf-196913_agdpml.jpg) fixed repeat-y center;
-    background-size: 100vw;
+    background: url(https://res.cloudinary.com/mayerxc/image/upload/o_30/v1508255534/marvin-ronsdorf-196913_agdpml.jpg) no-repeat center center fixed/*fixed repeat-y center */;
+    background-size: cover;
 }
 
 h1 {
@@ -77,8 +80,8 @@ h1 {
 
 #portfolio {
     overflow: auto;
-    background: url(http://res.cloudinary.com/mayerxc/image/upload/o_40/v1508255539/steven-coffey-350494_kpgdrc.jpg) fixed  center repeat-y;
-    background-size: 100vw;
+    background: url(http://res.cloudinary.com/mayerxc/image/upload/o_40/v1508255539/steven-coffey-350494_kpgdrc.jpg) no-repeat center center fixed/*fixed  center repeat-y*/;
+    background-size: cover;
 /*    height: 500px;*/
     padding-right: 5vw;
     padding-left: 5vw;
